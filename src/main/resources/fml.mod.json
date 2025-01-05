@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "tomestone",
+	"version": "${version}",
+	"depends": {
+		"fishmodloader": ">=3.2.1"
+	},
+	"environment": "*",
+	"name": "Tombstone",
+	"description": "",
+	"authors": ["FlyBird"],
+	"entrypoints": {
+		"main": ["com.github.FlyBird.Tombstone.HelloFML"]
+	},
+	"mixins": [
+		"tombstone.mixins.json"
+	]
+}
